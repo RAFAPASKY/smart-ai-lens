@@ -14,7 +14,7 @@ basic.forever(function () {
         basic.pause(TIME * 2)
         maqueen.motorStop(maqueen.Motors.All)
     } else if (PlanetX_AILens.numberCard(PlanetX_AILens.numberCards.three)) {
-        basic.showNumber(2)
+        basic.showNumber(3)
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 80)
         basic.pause(TIME * 3)
         maqueen.motorStop(maqueen.Motors.All)
@@ -29,7 +29,7 @@ basic.forever(function () {
         basic.pause(TIME * 5)
         maqueen.motorStop(maqueen.Motors.All)
     } else if (PlanetX_AILens.numberCard(PlanetX_AILens.numberCards.six)) {
-        basic.showNumber(5)
+        basic.showNumber(6)
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 80)
         basic.pause(TIME * 6)
         maqueen.motorStop(maqueen.Motors.All)
