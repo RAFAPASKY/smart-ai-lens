@@ -1,8 +1,9 @@
 PlanetX_AILens.initModule()
 PlanetX_AILens.switchfunc(PlanetX_AILens.FuncList.Card)
-let TIME = 1000
+let TIME = 700
 basic.forever(function () {
     PlanetX_AILens.cameraImage()
+    basic.pause(2000)
     if (PlanetX_AILens.numberCard(PlanetX_AILens.numberCards.one)) {
         basic.showNumber(1)
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 80)
